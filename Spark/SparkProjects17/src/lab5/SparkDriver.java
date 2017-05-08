@@ -9,6 +9,8 @@ import org.apache.spark.SparkConf;
 public class SparkDriver {
 	
 	public static void main(String[] args) {
+		
+		System.setProperty("hadoop.home.dir", "C:\\winutil\\");
 
 		String inputPath;
 		String outputPath;
